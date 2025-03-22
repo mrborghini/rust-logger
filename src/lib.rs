@@ -43,7 +43,7 @@ impl Logger {
 
         match info.log_type {
             LogType::Info => println!("{}{}{}", Colors::ok_blue(), message, Colors::normal()),
-            LogType::Debug => if let Ok(value) = env::var("LOGGER_DEBUG") {
+            LogType::Debug => if let Ok(value) = env::var("DEBUG") {
                 if value.to_lowercase() == "true" {
                     println!("{}{}{}", Colors::ok_green(), message, Colors::normal());
                 }

@@ -16,3 +16,6 @@ fn main() {
     logger.debug("Howdy");
 }
 ```
+
+If you want to see the debug log level you can set `DEBUG=true` as an
+environment variable.
