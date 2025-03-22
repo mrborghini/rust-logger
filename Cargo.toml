@@ -6,6 +6,7 @@ license-file = "LICENSE"
 keywords = ["debugging", "text", "logging"]
 categories = ["command-line-utilities", "development-tools::cargo-plugins"]
 repository = "https://github.com/mrborghini/rust-logger"
+description = "A simple logger."
 
 [dependencies]
 chrono = "0.4"
