@@ -2,7 +2,6 @@
 name = "rust-logger"
 version = "0.1.4"
 edition = "2024"
-license = "GPLv3"
 license-file = "LICENSE"
 keywords = ["debugging", "text", "logging"]
 categories = ["command-line-utilities", "development-tools::cargo-plugins"]
