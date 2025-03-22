@@ -2,6 +2,10 @@
 name = "rust-logger"
 version = "0.1.0"
 edition = "2024"
+license-file = "LICENSE"
+keywords = ["debugging", "text", "logging"]
+categories = ["command-line-utilities", "development-tools::cargo-plugins"]
+publish = ["lambo_rust_logger", "rust_logger"]
 
 [dependencies]
 chrono = "0.4"
