@@ -1,6 +1,6 @@
 mod colors;
 mod log_type;
-mod severity;
+pub mod severity;
 mod log;
 
 use std::{
@@ -12,7 +12,7 @@ use chrono::{Local, TimeZone, Utc};
 use colors::Colors;
 use log::Log;
 use log_type::LogType;
-use severity::Severity;
+pub use severity::Severity;
 
 pub struct Logger {
     type_name: String,
